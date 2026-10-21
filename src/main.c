@@ -15,3 +15,9 @@
  * along with this program.  If not, see https://gnu.org
  */
 
+#include<stdio.h>
+
+int main(void) {
+	printf("Hello World! \n");
+	return 0;
+}
