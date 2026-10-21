@@ -1,0 +1,51 @@
+# ====================================================================
+# Meson & Ninja Build Artifacts
+# ====================================================================
+# Ignore the default build directory (and any variations you might use)
+build/
+builddir/
+_build/
+
+# Ignore Meson subprojects downloaded automatically
+/subprojects/*
+!/subprojects/*.wrap
+
+# ====================================================================
+# C/C++ Compiled Artifacts & Object Files
+# ====================================================================
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# ====================================================================
+# Development Tools & IDEs
+# ====================================================================
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# CLion / IntelliJ
+.idea/
+cmake-build-*/
+
+# Vim / Emacs swap files
+*~
+*.swp
+*.swo
+
+# ====================================================================
+# Operating System Files
+# ====================================================================
+.DS_Store
+Thumbs.db
+
